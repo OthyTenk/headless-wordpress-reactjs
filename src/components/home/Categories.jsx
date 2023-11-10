@@ -30,7 +30,7 @@ const Categories = () => {
         {data?.map((category) => (
           <div
             key={category.id}
-            className="text-rose-400 hover:text-rose-300 hover:underline"
+            className="text-neutral-500 hover:text-rose-300 hover:underline pb-2"
           >
             <a href={`/category/${category.id}`}>{category.name}</a>
           </div>

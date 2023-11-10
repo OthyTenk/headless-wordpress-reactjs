@@ -5,7 +5,7 @@ const Card = ({ title, category, slug, summary }) => {
     <div className="mb-4">
       <a href={`/blog/${slug}`}>
         <h2
-          className="font-semibold text-lg text-rose-500"
+          className="font-semibold text-lg text-rose-500 hover:underline"
           dangerouslySetInnerHTML={{ __html: title }}
         />
       </a>
