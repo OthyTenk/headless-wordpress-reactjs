@@ -22,7 +22,7 @@ yarn
 pnpm i
 ```
 
-## [Start the app](https://github.com/OthyTenk/headless-wordpress-reactjs#)
+## Start the app
 
 Run the development server:
 
