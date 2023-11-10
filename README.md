@@ -1,8 +1,8 @@
 ## Screenshot
 
 This is a [simple headless wordpress theme with React.js](https://github.com/OthyTenk/headless-wordpress-reactjs).
-<img width="1485" alt="Screenshot 2023-11-11 at 03 27 19" src="https://github.com/OthyTenk/headless-wordpress-reactjs/assets/34827155/b243a297-e2ce-4631-a2e7-ebd29fc6337f">
 
+<img width="1485" alt="Screenshot 2023-11-11 at 03 27 19" src="https://github.com/OthyTenk/headless-wordpress-reactjs/assets/34827155/b243a297-e2ce-4631-a2e7-ebd29fc6337f">
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ yarn
 pnpm i
 ```
 
-## [Install packages](https://github.com/OthyTenk/headless-wordpress-reactjs#)
+## [Start the app](https://github.com/OthyTenk/headless-wordpress-reactjs#)
 
 Run the development server:
 
