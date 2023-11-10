@@ -1,3 +1,5 @@
+import { useLocation } from "react-router-dom";
+
 const Links = [
   {
     url: "/",
@@ -14,7 +16,8 @@ const Links = [
 ];
 
 const Navigation = () => {
-  const pathname = "";
+  const location = useLocation();
+  let selectedPath = location.pathname;
 
   return (
     <nav className="flex flex-row justify-center gap-8 mb-5">
@@ -23,7 +26,9 @@ const Navigation = () => {
           <a key={link.label} href={link.url}>
             <div
               className={`text-md hover:text-rose-400 ${
-                link.url === pathname ? "text-rose-500" : "text-neutral-700"
+                link.url === selectedPath
+                  ? "text-rose-500 underline"
+                  : "text-neutral-700"
               }`}
             >
               {link.label}
